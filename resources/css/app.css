@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 @layer components {
+    .alert {
+        @apply px-4 py-2 rounded border border-transparent text-sm font-medium;
+    }
+    .alert-success {
+        @apply bg-green-100 border-green-400 text-green-700;
+    }
+    .alert-error {
+        @apply bg-red-100 border-red-400 text-red-700;
+    }
+    .form-control {
+        @apply px-2 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500 focus:ring-opacity-50;
+    }
+    .form-label {
+        @apply block text-sm font-medium text-gray-700;
+    }
+    .btn-primary {
+        @apply py-2 px-5 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer;
+    }
+    .btn-secondary {
+        @apply py-2 px-5 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-75 cursor-pointer;
+    }
+    .btn-success {
+        @apply py-2 px-5 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring focus:ring-green-400 focus:ring-opacity-75 cursor-pointer;
+    }
+    .btn-warning {
+        @apply py-2 px-5 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-yellow-700 focus:outline-none focus:ring focus:ring-yellow-400 focus:ring-opacity-75 cursor-pointer;
+    }
+    .btn-danger {
+        @apply py-2 px-5 bg-red-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring focus:ring-red-400 focus:ring-opacity-75 cursor-pointer;
+    }
     .content-lingkaran1 {
         @apply absolute bottom-[500px] left-[-280px] w-[450px] h-[450px] bg-[#6696b1] rounded-full z-0;
     }
@@ -17,13 +47,13 @@
         transition: box-shadow 0.3s ease;
     }
 
-    .login-glow-on-hover:hover,
-    .login-glow-on-hover:focus {
+    .login-glow:hover,
+    .login-glow:focus {
         box-shadow: 0 0 8px rgba(0, 255, 255, 0.7),
             0 0 20px rgba(0, 255, 255, 0.5);
     }
 
-    .login-glow-on-hover:active {
+    .login-glow:active {
         box-shadow: 0 0 10px rgba(0, 255, 255, 0.9),
             0 0 30px rgba(0, 255, 255, 0.7);
     }

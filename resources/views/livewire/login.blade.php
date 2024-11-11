@@ -38,7 +38,7 @@
                                 <label for="password" class="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm select-none">Password</label>
                             </div>
                             <div class="relative ">
-                                <button class="bg-cyan-400 shadow-lg shadow-cyan-400/30 text-white rounded-md px-2 py-1 text-sm w-full mt-4 size-10 login-glow-on-hover">Submit</button>
+                                <button class="bg-cyan-400 shadow-lg shadow-cyan-400/30 text-white rounded-md px-2 py-1 text-sm w-full mt-4 size-10 login-glow">Submit</button>
                             </div>
                             <a href="register" class="select-none text-center text-gray-600 text-1xl relative top-5 left-5 font-semibold" style="text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Don't have an account? <span class="font-semibold text-blue-500">Sign Up</span></a>
                         </div>
