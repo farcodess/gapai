@@ -8,6 +8,7 @@
 
     <title>Login</title>
     @livewireStyles
+    @vite('resources/css/app.css')
 
 </head>
 <body>

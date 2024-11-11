@@ -1,3 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    .content-lingkaran1 {
+        @apply absolute bottom-[500px] left-[-280px] w-[450px] h-[450px] bg-[#6696b1] rounded-full z-0;
+    }
+
+    .content-lingkaran2 {
+        @apply absolute bottom-[50px] right-[-290px] w-[500px] h-[500px] bg-[#6696b1] rounded-full z-0;
+    }
+
+    .content-lingkaran5 {
+        @apply absolute left-[1620px] bottom-[140px] w-[80px] h-[80px] bg-[#d4d4d4] rounded-full;
+    }
+    .login-glow-on-hover {
+        transition: box-shadow 0.3s ease;
+    }
+
+    .login-glow-on-hover:hover,
+    .login-glow-on-hover:focus {
+        box-shadow: 0 0 8px rgba(0, 255, 255, 0.7),
+            0 0 20px rgba(0, 255, 255, 0.5);
+    }
+
+    .login-glow-on-hover:active {
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.9),
+            0 0 30px rgba(0, 255, 255, 0.7);
+    }
+
+    .login-lingkaran1 {
+        position: absolute;
+        top: -190px;
+        left: -170px;
+        width: 480px;
+        height: 480px;
+        background: #6696b1;
+        border-radius: 50%;
+        z-index: 0;
+    }
+
+    .login-lingkaran2 {
+        position: absolute;
+        bottom: -220px;
+        right: -50px;
+        width: 500px;
+        height: 500px;
+        background: #6696b1;
+        border-radius: 50%;
+        z-index: 0;
+    }
+
+    .login-lingkaran3 {
+        position: absolute;
+        left: 380px;
+        bottom: 893px;
+        width: 80px;
+        height: 80px;
+        background: #d4d4d4;
+        border-radius: 100%;
+    }
+
+    .login-lingkaran4 {
+        position: absolute;
+        left: 1892px;
+        bottom: 220px;
+        width: 60px;
+        height: 60px;
+        background: #719599;
+        border-radius: 100%;
+    }
+
+    .login-lingkaran5 {
+        position: absolute;
+        left: 1780px;
+        bottom: 275px;
+        width: 80px;
+        height: 80px;
+        background: #d4d4d4;
+        border-radius: 100%;
+    }
+}

@@ -1,71 +1,4 @@
-<div style="overflow: hidden; position: relative;">
-    <style>
-        .glow-on-hover {
-            transition: box-shadow 0.3s ease;
-        }
-
-        .glow-on-hover:hover, 
-        .glow-on-hover:focus {
-            box-shadow: 0 0 8px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5);
-        }
-
-        .glow-on-hover:active {
-            box-shadow: 0 0 10px rgba(0, 255, 255, 0.9), 0 0 30px rgba(0, 255, 255, 0.7);
-        }
-
-        .lingkaran1 {
-            position: absolute;
-            top: -190px; 
-            left: -170px; 
-            width: 480px;
-            height: 480px;
-            background: #6696b1;
-            border-radius: 50%;
-            z-index: 0; 
-        }
-
-        .lingkaran2 {
-            position: absolute;
-            bottom: -220px; 
-            right: -50px;
-            width: 500px;
-            height: 500px;
-            background: #6696b1;
-            border-radius: 50%; 
-            z-index: 0; 
-        }
-
-        .lingkaran3 {
-            position: absolute;
-            left: 380px;
-            bottom: 893px;
-            width: 80px;
-            height: 80px;
-            background: #d4d4d4;
-            border-radius: 100%;
-        }
-
-        .lingkaran4 {
-            position: absolute;
-            left: 1892px;
-            bottom: 220px;
-            width: 60px;
-            height: 60px;
-            background: #719599;
-            border-radius: 100%;
-        }
-
-        .lingkaran5 {
-            position: absolute;
-            left: 1780px;
-            bottom: 275px;
-            width: 80px;
-            height: 80px;
-            background: #d4d4d4;
-            border-radius: 100%;
-        }
-    </style>
-
+<div class="overflow-hidden relative">
     <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
         <div class="relative py-3 sm:max-w-xl sm:mx-auto">
             <div class="select-none relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 h-00 ">
@@ -105,7 +38,7 @@
                                 <label for="password" class="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm select-none">Password</label>
                             </div>
                             <div class="relative ">
-                                <button class="bg-cyan-400 shadow-lg shadow-cyan-400/30 text-white rounded-md px-2 py-1 text-sm w-full mt-4 size-10 glow-on-hover">Submit</button>
+                                <button class="bg-cyan-400 shadow-lg shadow-cyan-400/30 text-white rounded-md px-2 py-1 text-sm w-full mt-4 size-10 login-glow-on-hover">Submit</button>
                             </div>
                             <a href="register" class="select-none text-center text-gray-600 text-1xl relative top-5 left-5 font-semibold" style="text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Don't have an account? <span class="font-semibold text-blue-500">Sign Up</span></a>
                         </div>
@@ -114,11 +47,11 @@
             </div>
         </div>
 
-        <div class="lingkaran1"></div>
-        <div class="lingkaran2"></div>
-        <div class="lingkaran3"></div>
-        <div class="lingkaran4"></div>
-        <div class="lingkaran5"></div>
+        <div class="login-lingkaran1"></div>
+        <div class="login-lingkaran2"></div>
+        <div class="login-lingkaran3"></div>
+        <div class="login-lingkaran4"></div>
+        <div class="login-lingkaran5"></div>
 
         <!-- Add SVG icon here -->
         <div class="absolute top-4 right-4">

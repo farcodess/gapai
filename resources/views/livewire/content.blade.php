@@ -1,41 +1,5 @@
 <div>
-    <div style="overflow: hidden; position: relative;"> <!-- Add overflow hidden and position relative here -->
-        <style>
-    
-            .lingkaran1 {
-                position: absolute;
-                bottom: 500px; /* Adjust if needed */
-                left: -280px; /* Adjust if needed */
-                width: 450px;
-                height: 450px;
-                background: #6696b1;
-                border-radius: 50%; /* Changed from 100% to 50% for proper circle */
-                z-index: 0; /* Positioned behind content */
-            }
-    
-            .lingkaran2 {
-                position: absolute;
-                bottom: 50px; 
-                right: -290px; /* Adjust to fit your view */
-                width: 500px;
-                height: 500px;
-                background: #6696b1;
-                border-radius: 50%; /* Changed from 100% to 50% for proper circle */
-                z-index: 0; /* Positioned behind content */
-            }
-    
-           
-            .lingkaran5{
-                position: absolute;
-                left: 1620px;
-                bottom: 140px;
-                width: 80px;
-                height: 80px;
-                background: #d4d4d4;
-                border-radius: 100%;
-            }
-        </style>
-    
+    <div class="overflow-hidden relative"> <!-- Add overflow hidden and position relative here -->
         <div class= "min-h-screen  bg-white py-6  justify-center sm:py-12 select-none">
             <div class=" container mx-auto mt-20 flex flex-row items-center text-center relative">
                
@@ -63,11 +27,11 @@
 
            
         </div>
-        <div class="lingkaran1"></div>
-        <div class="lingkaran2"></div>
-        <div class="lingkaran3"></div>
-        <div class="lingkaran4"></div>
-        <div class="lingkaran5"></div>
+        <div class="content-lingkaran1"></div>
+        <div class="content-lingkaran2"></div>
+        <div class="content-lingkaran3"></div>
+        <div class="content-lingkaran4"></div>
+        <div class="content-lingkaran5"></div>
 
 
         

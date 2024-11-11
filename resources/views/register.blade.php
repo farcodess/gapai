@@ -8,7 +8,7 @@
 
     <title>Register</title>
     @livewireStyles
-
+    @vite('resources/css/app.css')
 </head>
 <body>
     <div>

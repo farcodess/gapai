@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Register</title>
+    @vite('resources/css/app.css')
     @livewireStyles
 
 </head>
